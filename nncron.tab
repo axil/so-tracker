@@ -1,0 +1,9 @@
+
+#( overflow_tracker
+Action:
+StartIn: "D:\Documents\python\overflow_tracker" 
+SWHide   NormalPriority
+START-APPW: D:\Documents\python\overflow_tracker\tracker.py
+ExitCodeProc 0 <> IF BALLOON: "Overflow tracker" "New question!" THEN
+)#
+
